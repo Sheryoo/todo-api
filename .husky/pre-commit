@@ -1,0 +1,3 @@
+bun lint
+bun format:check
+bun type:check
