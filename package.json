@@ -2,14 +2,39 @@
   "name": "todo",
   "version": "1.0.50",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "bun run --watch src/index.ts"
+    "develop": "bun run --watch app.ts",
+    "start": "bun run app.ts",
+    "lint": "eslint \"**/*.{js,jsx,ts,tsx}\"",
+    "lint:fix": "eslint \"**/*.{js,jsx,ts,tsx}\" --fix",
+    "format:check": "prettier \"(*.{js,ts,jsx,tsx,json})|(**/*.{js,ts,jsx,tsx,json})\" --check",
+    "format:fix": "prettier \"(*.{js,ts,jsx,tsx,json})|(**/*.{js,ts,jsx,tsx,json})\" --write",
+    "type:check": "tsc --noEmit",
+    "husky": "INIT_HUSKY=1 && husky"
   },
   "dependencies": {
-    "elysia": "latest"
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/morgan": "^1.9.9",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "elysia": "latest",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7",
+    "typescript-eslint": "8.3.0"
   },
   "devDependencies": {
-    "bun-types": "latest"
+    "bun-types": "latest",
+    "eslint": "^8.57.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.30.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "husky": "^9.1.6"
   },
   "module": "src/index.js"
 }
