@@ -3,8 +3,8 @@ import { userRegister, userLogin } from "../controllers/user";
 
 const userRoutes = Router();
 
-userRoutes.post("/register", (req, res) => userRegister(req, res));
+userRoutes.post("/register", userRegister);
 
-userRoutes.post("/login", (req, res) => userLogin(req, res));
+userRoutes.post("/login", userLogin);
 
 export default userRoutes;

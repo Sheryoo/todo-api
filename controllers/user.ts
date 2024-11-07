@@ -3,12 +3,30 @@ import { Response } from "express";
 import User from "../models/user";
 import jwt, { Secret } from "jsonwebtoken";
 import { config } from "dotenv";
+import { emailRegex, passwordRegex } from "../utils/regex";
 
 config();
 
 export const userRegister = async (req: any, res: Response) => {
   const { fullName, email, password } = req.body;
   const salt = crypto.randomBytes(16).toString("hex");
+
+  if (!passwordRegex.test(password)) {
+    return res.status(400).send({
+      status: false,
+      message:
+        "Password must be at least 8 characters long and contain at least one uppercase letter, one lowercase letter, one number, and one special character",
+      data: null,
+    });
+  }
+
+  if (!emailRegex.test(email)) {
+    return res.status(400).send({
+      status: false,
+      message: "Invalid email address",
+      data: null,
+    });
+  }
 
   crypto.pbkdf2(
     password,

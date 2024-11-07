@@ -18,7 +18,7 @@ sequelize
   });
 
 const app = express();
-const prefix = process.env.PREFIX || "";
+const prefix = process.env.API || "";
 
 app.use(express.json());
 app.use(helmet());
