@@ -899,9 +899,9 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 elysia@latest:
-  version "1.2.24"
-  resolved "https://registry.yarnpkg.com/elysia/-/elysia-1.2.24.tgz#d6bd7c86fe220392a5c3b8e71875f9365a8fcf1e"
-  integrity sha512-z849iAFdOCLd/a/ra3dtOmMd9jN4ow1G5Enq5RRRfheu/HEcO61cnwSaj0EScbT91pDiVbozhzqxF/K6b6amEw==
+  version "1.2.25"
+  resolved "https://registry.yarnpkg.com/elysia/-/elysia-1.2.25.tgz#52a9493ef5153c605ce5d0d8d8b0ad7c9d834b29"
+  integrity sha512-WsdQpORJvb4uszzeqYT0lg97knw1iBW1NTzJ1Jm57tiHg+DfAotlWXYbjmvQ039ssV0fYELDHinLLoUazZkEHg==
   dependencies:
     "@sinclair/typebox" "^0.34.27"
     cookie "^1.0.2"
