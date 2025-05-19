@@ -14,7 +14,7 @@
   },
   "dependencies": {
     "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
+    "@types/express": "^5.0.2",
     "@types/jsonwebtoken": "^9.0.9",
     "@types/morgan": "^1.9.9",
     "bcrypt": "^5.1.1",
@@ -36,7 +36,7 @@
     "eslint-plugin-prettier": "^5.4.0",
     "husky": "^9.1.7",
     "@types/cors": "^2.8.17",
-    "@types/express": "^5.0.1",
+    "@types/express": "^5.0.2",
     "@types/morgan": "^1.9.9",
     "globals": "^15.13.0",
     "prettier": "^3.5.3",
