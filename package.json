@@ -27,7 +27,7 @@
     "morgan": "^1.10.0",
     "sequelize": "^6.37.7",
     "sqlite3": "^5.1.7",
-    "typescript-eslint": "8.26.0"
+    "typescript-eslint": "8.34.0"
   },
   "devDependencies": {
     "eslint": "^8.57.0",
@@ -42,7 +42,7 @@
     "prettier": "^3.5.3",
     "tsc-watch": "^6.2.1",
     "typescript": "^5.7.2",
-    "typescript-eslint": "^8.26.0"
+    "typescript-eslint": "^8.34.0"
   },
   "module": "src/index.js"
 }
