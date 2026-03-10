@@ -917,12 +917,12 @@ ee-first@1.1.1:
   integrity sha512-WMwm9LhRUo+WUaRN+vRuETqG89IgZphVSNkdFgeb6sS/E4OrDIN7t48CAewSHXc6C8lefD8KKfr5vY61brQlow==
 
 elysia@latest:
-  version "1.4.18"
-  resolved "https://registry.yarnpkg.com/elysia/-/elysia-1.4.18.tgz#293af0a71ae2a7b01dc2fbcdbbde574aaaf9e895"
-  integrity sha512-A6BhlipmSvgCy69SBgWADYZSdDIj3fT2gk8/9iMAC8iD+aGcnCr0fitziX0xr36MFDs/fsvVp8dWqxeq1VCgKg==
+  version "1.4.27"
+  resolved "https://registry.yarnpkg.com/elysia/-/elysia-1.4.27.tgz#709f07f54c0d0400aab8a18bac4d94223203ec45"
+  integrity sha512-2UlmNEjPJVA/WZVPYKy+KdsrfFwwNlqSBW1lHz6i2AHc75k7gV4Rhm01kFeotH7PDiHIX2G8X3KnRPc33SGVIg==
   dependencies:
     cookie "^1.1.1"
-    exact-mirror "0.2.5"
+    exact-mirror "^0.2.7"
     fast-decode-uri-component "^1.0.1"
     memoirist "^0.4.0"
 
@@ -1245,10 +1245,10 @@ event-stream@=3.3.4:
     stream-combiner "~0.0.4"
     through "~2.3.1"
 
-exact-mirror@0.2.5:
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/exact-mirror/-/exact-mirror-0.2.5.tgz#037c817c875836d7ef98dd1675515c053ff37edb"
-  integrity sha512-u8Wu2lO8nio5lKSJubOydsdNtQmH8ENba5m0nbQYmTvsjksXKYIS1nSShdDlO8Uem+kbo+N6eD5I03cpZ+QsRQ==
+exact-mirror@^0.2.7:
+  version "0.2.7"
+  resolved "https://registry.yarnpkg.com/exact-mirror/-/exact-mirror-0.2.7.tgz#ee8e75c362a67ca0e07cb13fea92b61adaabfa29"
+  integrity sha512-+MeEmDcLA4o/vjK2zujgk+1VTxPR4hdp23qLqkWfStbECtAq9gmsvQa3LW6z/0GXZyHJobrCnmy1cdeE7BjsYg==
 
 expand-template@^2.0.3:
   version "2.0.3"
